@@ -60,7 +60,7 @@ public class GamePlayManager : MonoBehaviour
         newTileSpawnHolder.transform.GetChild(1).transform.localPosition = InitializerScripts.playerTileSpawninglocalPosArr[1];
         newTileSpawnHolder.transform.GetChild(1).GetComponent<TileScripts>().SetScaleValue(InitializerScripts.playerTileScaleArry[1]);
         // new tile also spawn
-        InitializerScripts.SpawnPlayerTile(1);
+        InitializerScripts.SpawnPlayerTile();
 
     }
 
